@@ -59,22 +59,24 @@
   animation: titleAnimation 18s linear infinite 0s;
 }
 
-.cb-slideshow li div h3{
-  font-family: Arial, sans-serif;
-  font-size: 240px;
-  padding: 0;
-  line-height: 200px;
-}
-
 /* change the font size according to users' screen size*/
 
-@media screen and (max-width: 1140px){
+.cb-slideshow li div h3{
+  font-family: "NSimSun", Arial, monospace;
+  font-size: 120px;
+  padding: 0;
+  line-height: 150px;
+}
+
+@media  (max-width: 1140px){
   .cd-slideshow li div h3 {font-size: 140px;}
 }
 
-@media screen and (max-width: 600px){
+@media  (max-width: 600px){
   .cd-slideshow li div h3 {font-size: 80px;}
 }
+
+
 
 /* bg image slideshow animation */
 .cb-slideshow li:nth-child(1) span{
